@@ -5,3 +5,13 @@ form{
 body{
     background-color: skyblue;
 }
+button{
+    font-size: 20px;
+    color:rgb(202, 76, 99);
+    background-color:skyblue;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    
+}
