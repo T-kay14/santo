@@ -7,11 +7,34 @@ body{
 }
 button{
     font-size: 20px;
-    color:rgb(202, 76, 99);
+    color:whitesmoke;
     background-color:skyblue;
+    border-radius: 8px;
 }
 button:hover{
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(202, 76, 99);;
+}
+input{
+    border-style:none;
+    border-radius: 8px;
+    width: 10rem;
+    margin: 10px 0;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+input:invalid{
+    border:1px solid red;
+}
+
+ .form > fieldset{
+    background-color: whitesmoke;
+    width: 7
     
+    cm;
+    height:1.5cm;
+    font-size: small;
+    text-align: start;
+    border-style: none;
+    border-radius: 8px;
 }
