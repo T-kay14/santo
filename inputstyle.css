@@ -9,8 +9,9 @@ button{
     font-size: 20px;
     color:whitesmoke;
     background-color:skyblue;
-    border-radius: 8px;
-    width: 30px;
+    border-radius: 20gitpx;
+    width: 310px;
+    background-color: rgb(202, 76, 99);
 }
 button:hover{
     cursor: pointer;
@@ -19,7 +20,7 @@ button:hover{
 }
 input{
     border-style:none;
-    border-radius: 8px;
+    border-radius: 30px;
     width: 20rem;
     margin: 10px 0;
     background-color: whitesmoke;
@@ -29,11 +30,14 @@ input:invalid{
     border:1px solid red;
 }
  .form > fieldset{
-    background-color: whitesmoke;
     width: 7cm;
     height:1.5cm;
     font-size: small;
     text-align: start;
     border-style: none;
-    border-radius: 8px;
+    border-radius: 10px;
+}
+#set>input{
+    width: 25px;
+    font-size: 60px;
 }
