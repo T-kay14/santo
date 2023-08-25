@@ -10,15 +10,17 @@ button{
     color:whitesmoke;
     background-color:skyblue;
     border-radius: 8px;
+    width: 30px;
 }
 button:hover{
     cursor: pointer;
-    background-color: rgb(202, 76, 99);;
+    background-color: rgb(202, 76, 99);
+    width: 310px;
 }
 input{
     border-style:none;
     border-radius: 8px;
-    width: 10rem;
+    width: 20rem;
     margin: 10px 0;
     background-color: whitesmoke;
     padding: 10px;
@@ -26,7 +28,6 @@ input{
 input:invalid{
     border:1px solid red;
 }
-
  .form > fieldset{
     background-color: whitesmoke;
     width: 7cm;
